@@ -3,10 +3,11 @@
 html {
   font-family: Poppins, "Hoefler Text", Georgia, "Times New Roman", Times, Roman, serif;
   background: #87CEEB;
+  font-size: 1.125em;
 }
 
 h1 {
-  font-size: 150%;
+  font-size: 200%;
   font-weight: bold;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
@@ -17,9 +18,52 @@ input {
   margin-bottom: 0.5em;
 }
 
-media screen and (min-width: 227px) {
+@media screen and (min-width: 12.6em) {
   #wrap {
     display: inline-block;
     justify-content: center;
+  }
+  html {
+    font-size: 50%;
+  }
+}
+
+@media screen and (min-width: 24.8em) {
+  #wrap {
+    display: inline-block;
+    justify-content: center;
+  }
+  html {
+    font-size: 100%;
+  }
+}
+
+@media screen and (min-width: 40em) {
+  #wrap {
+    display: inline-block;
+    justify-content: center;
+  }
+  h1 {
+    font-size: 200%;
+  }
+}
+
+@media screen and (min-width: 61em) {
+  #wrap {
+    display: inline-block;
+    justify-content: center;
+  }
+  h1 {
+    font-size: 250%;
+  }
+}
+
+@media screen and (min-width: 83.3em) {
+  #wrap {
+    display: inline-block;
+    justify-content: center;
+  }
+  h1 {
+    font-size: 300%;
   }
 }
