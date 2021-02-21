@@ -4,3 +4,15 @@ html {
   font-family: Poppins, "Hoefler Text", Georgia, "Times New Roman", Times, Roman, serif;
   background: #F08080;
 }
+
+h1 {
+  font-size: 200%;
+  font-weight: bold;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  text-align: center;
+}
+
+input {
+  margin-bottom: 0.5em;
+}
